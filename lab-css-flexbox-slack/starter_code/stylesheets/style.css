@@ -1,0 +1,164 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*
+background purple: #540B51
+background ivory: #F3EAE2
+button blue: #4285F4
+titles black: #191817
+paragraph black: #000000
+paragraph yellow: #ECB12F
+links blue: #2E71A6
+footer links grey: #454245
+*/
+
+
+.hidden{
+    display: none;
+}
+
+
+.topnav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #540B51;
+}
+
+img{
+   width: 100px;
+}
+
+.topnav button img {
+    width: 20px;
+}
+     
+.tittle{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-between;
+    height: 100px;
+    background-color: #540B51;
+    color:white;
+}
+
+.tittle span { 
+    color: #ECB12F;
+
+}
+
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    }
+
+    
+
+.buttons button{
+background-color:white;
+color: #540B51;
+border-radius: 5px;
+}
+
+.buttonsin{
+    display: flex;
+    flex-direction: row;
+    border-radius: 5px;
+    background-color: #4285F4;
+    
+    }
+
+.buttonsin span{
+    background-color: #4285F4;
+}
+
+
+
+.buttonsin img{
+    
+    width: 15px;
+   
+}
+
+.larger-image img{
+    background-size: cover;
+    width:100vw;
+}
+    
+
+.main{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F3EAE2;
+}
+.trusted{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.logos{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.mainimgs img {
+    background-size: cover;
+    width:100vw;
+}
+
+.team{
+    display:flex;
+    flex-direction: column;
+
+}
